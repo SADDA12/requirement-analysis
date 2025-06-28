@@ -67,3 +67,27 @@ Requirement Analysis involves several structured activities that help define wha
 - **Requirement Validation**  
   - Review requirements with stakeholders to ensure accuracy and completeness.
   - Define acceptance criteria and build a traceability matrix to link each requirement to corresponding tests and deliverables.
+
+## Types of Requirements
+
+In software development, requirements are broadly classified into two categories: Functional and Non-functional requirements. Both are essential for building a robust and user-friendly system.
+
+### Functional Requirements 
+
+Functional requirements describe **what** the system should do. These are the core features and interactions that users expect from the system. For a booking management system, some key functional requirements include:
+
+- **Search Properties**: Users can search for available properties based on location, price range, and availability.
+- **User Registration**: Users can create an account with their personal information and login credentials.
+- **Property Listings**: The system should display property details including images, pricing, location, and availability.
+- **Booking System**: Users can select available dates, confirm bookings, and manage their reservations.
+- **User Authentication**: Secure login and registration flow to protect user accounts.
+
+### Non-functional Requirements 
+
+Non-functional requirements define **how** the system should perform. These attributes impact user experience, performance, and system behavior under specific conditions. For the booking management system, important non-functional requirements include:
+
+- **Performance**: The application should load all major pages within 2 seconds and support up to 1000 concurrent users.
+- **Security**: Ensure secure data handling using encryption, secure login protocols, and protection against vulnerabilities like SQL injection.
+- **Scalability**: The system should be able to scale horizontally to handle an increase in user traffic.
+- **Usability**: Interface should be intuitive and user-friendly, suitable for both desktop and mobile users.
+- **Reliability**: The platform must maintain 99.9% uptime and recover quickly from system failures.
